@@ -1,0 +1,31 @@
+{
+  "name": "stagem/zfc-route",
+  "description": "Standard config routes for ZF3",
+  "type": "zf-module",
+  "license": "MIT",
+  "keywords": [
+    "zf",
+    "routes"
+  ],
+  "authors": [
+    {
+      "name": "Serhii Popov",
+      "email": "popow.serhii@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6 || ^7."
+  },
+  "autoload": {
+    "psr-4": {
+      "Stagem\\ZfcLRoute\\": "src/"
+    }
+  },
+  "extra": {
+    "zf": {
+      "config-provider": "Stagem\\ZfcLRoute\\ConfigProvider",
+      "component": "Stagem\\ZfcLRoute"
+    }
+  }
+}
