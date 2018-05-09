@@ -19,13 +19,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Stagem\\ZfcLRoute\\": "src/"
+      "Stagem\\ZfcRoute\\": "src/"
     }
   },
   "extra": {
     "zf": {
-      "config-provider": "Stagem\\ZfcLRoute\\ConfigProvider",
-      "component": "Stagem\\ZfcLRoute"
+      "config-provider": "Stagem\\ZfcRoute\\ConfigProvider",
+      "component": "Stagem\\ZfcRoute"
     }
   }
 }
